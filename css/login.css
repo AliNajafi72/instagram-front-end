@@ -167,3 +167,30 @@ body {
     text-decoration: none;
     color: #195487;
 }
+
+.sign-up-box {
+    border: solid lightgray 2px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.sign-up-link {
+    text-decoration: none;
+    color: #0095f6;
+    display: inline-block;
+}
+
+.sign-up-box-text {
+    display: inline-block;
+    color: darkgray;
+}
+
+.get-app-text {
+
+}
+
+.download-icon {
+    display: inline-block;
+    max-width: 150px;
+}
