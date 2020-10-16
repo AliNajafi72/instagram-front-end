@@ -193,4 +193,5 @@ body {
 .download-icon {
     display: inline-block;
     max-width: 150px;
+    margin-right: 10px;
 }
