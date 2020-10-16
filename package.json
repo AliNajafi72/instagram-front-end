@@ -2,6 +2,7 @@
   "name": "instagram",
   "version": "1.0.0",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^4.5.3"
   },
   "main": "index.js",
