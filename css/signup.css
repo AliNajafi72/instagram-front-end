@@ -17,6 +17,7 @@ body {
 
 .middle {
     grid-column: middle;
+    text-align: center;
 }
 
 .sign-up-box {
@@ -26,6 +27,7 @@ body {
     background-color: white;
     width: 400px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .logo-title {
@@ -36,8 +38,10 @@ body {
 .sign-up-box-top-text {
     display: block;
     margin: 30px auto;
-    color: darkgray;
+    color: gray;
     width: 300px;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .input {
@@ -68,4 +72,35 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+
+.sign-up-box-bottom-text {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.login-box-text {
+    color: gray;
+    display: inline-block;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #0095f6;
+    display: inline-block;
+}
+
+.get-app-text {
+
+    text-align: center;
+}
+
+.download-icon {
+    display: inline-block;
+    max-width: 150px;
+    margin-right: 10px;
 }
