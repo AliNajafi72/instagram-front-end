@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <title>Instagram</title>
     <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-</div>
+
+<nav>
+    <div class="d-flex justify-content-between">
+        <div class="d-flex av-left-section">
+            <img class="nav-instagram-logo align-self-center" src="img/instagram-icon-gray.png">
+            <div class="nav-logo-divider align-self-center"></div>
+            <img class="instagram-logo-title align-self-center" src="./img/instagram-logo-title-gray.png">
+        </div>
+        <div class="d-flex nav-middle-section">
+            <form class="search-form">
+                <input id="search-input" class="search-input">
+            </form>
+            <div id="search-input-placeholder" class="d-flex justify-content-between search-input-placeholder">
+                <img class="search-placeholder-icon align-self-center" src="./img/search-icon-gray.png">
+                <p class="search-placeholder-title align-self-center">Search</p>
+            </div>
+        </div>
+        <div class="nav-right-section">
+
+        </div>
+    </div>
+</nav>
+
+<script src="./js/script.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
