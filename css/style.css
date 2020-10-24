@@ -155,3 +155,22 @@ nav {
     margin-left: 20px;
 }
 
+.saved-stories-inner {
+    width: 70%;
+}
+
+.saved-stories-photo {
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.saved-stories {
+    display: inline-block;
+}
+
+.saved-stories-title {
+    text-align: center;
+    margin-top: 10px;
+}
