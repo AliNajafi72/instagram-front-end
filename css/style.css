@@ -142,6 +142,16 @@ nav {
     height: 15px;
 }
 
+.profile-details {
+    display: block;
+}
 
+.profile-details-text {
+    display: inline-block;
+    margin-right: 20px;
+}
 
+.bio {
+    margin-left: 20px;
+}
 
