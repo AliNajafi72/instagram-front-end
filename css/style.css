@@ -174,3 +174,56 @@ nav {
     text-align: center;
     margin-top: 10px;
 }
+
+.posts-inner-container {
+    width: 70%;
+}
+
+.posts-inner-grid {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.post-content {
+    position: relative;
+}
+
+.post-image {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+@keyframes posts-image-brightness {
+    from {filter: brightness(100%)}
+    to {filter: brightness(30%)}
+}
+
+.col-4 {
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+.post-icon-container {
+    visibility: hidden;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    position: absolute;
+    color: white;
+}
+
+.post-icon {
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@keyframes posts-icon-brightness {
+    from {visibility: hidden}
+    to {visibility: visible}
+}
